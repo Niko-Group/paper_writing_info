@@ -144,7 +144,7 @@ Finally, Error analysis subsection is very important and should highlight and pr
 
 ### Conclusion
 
-The conclusions section should be short and reiterate through the main contributions. Tip: rephrase the last paragaph of the intro or the abstract and a couple of sentences on future work (no need to mention/reveal any groundbreaking ideas here!)
+The conclusions section should be short and reiterate through the main contributions. Tip: rephrase the last paragaph of the intro (or the abstract) and add a couple of sentences on future work (no need to mention/reveal any groundbreaking ideas here!)
 
 
 ### Data
