@@ -168,6 +168,7 @@ Make sure that the format of the references is correct and capitalisation is OK.
 - In general everything in the paper should be clearly explained. If something looks difficult to comprehend then you might need to revise it.
 - Polish, proofread, repeat. Read the paper again and again..
 - Ask your colleagues for feedback.
+- Make sure you have checked regardin any extra requirements (e.g. ethics statement)
 
 ## Improving your Writing
 
