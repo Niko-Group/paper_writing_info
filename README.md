@@ -54,7 +54,7 @@ To have good chances to get your paper accepted, it should typically contain at 
   - state-of-the art results
   - thorough experiments and analysis
 
-and…it has to be **very well-written**!
+and…it has to be **written very well**!
 
 ## General Advice
 
