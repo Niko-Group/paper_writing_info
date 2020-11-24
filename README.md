@@ -88,7 +88,7 @@ To save space, you can move hyperparameter tuning info into an Appendix
 
 
 ### Abstract
-Short version of the introduction. It should start with a sentence setting the context and why the task is important. Then, it should present the limitations of previous work (if applicable) followed with what new you are proposing. Close with the main contributions of the paper. 
+It should start with a sentence setting the context and why the task is important. Then, it should present the limitations of previous work (if applicable) followed with what new you are proposing. Close with the main contributions of the paper. 
 
 Example 1:
 
@@ -117,7 +117,7 @@ Example:
 
 *In this paper, we present a new method X that consists of A and B...*
 
-In the **last paragraph**, you should describe (again) shortly and concisely the main contributions of your paper. In a long paper, you can use a bullet-point list. For short papers you can use an in-line list (e.g. (a) contribution 1; (b) contribution 2...).
+In the **last paragraph**, you should describe (again) shortly and concisely the **main contributions** of your paper. In a long paper, you can use a bullet-point list. For short papers you can use an in-line list (e.g. (a) contribution 1; (b) contribution 2...).
 
 Note: Do not use "The paper is structured as follows…" to close the introduction! This is usually helpful for longer documents such as a PhD thesis.  
 
