@@ -52,9 +52,8 @@ To have good chances to get your paper accepted, it should typically contain at 
   - a novel methodology (e.g. new ML model, substantial extensions to existing models etc.)
   - a novel evaluation method (e.g. a better way for evaluating models for an existing task)
   - state-of-the art results
-  - thorough experiments and analysis
-
-and…it has to be **written very well**!
+ 
+ thorough experiments and analysis and…it has to be **written very well**!
 
 ## General Advice
 
