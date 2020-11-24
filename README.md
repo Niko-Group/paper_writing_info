@@ -1,8 +1,9 @@
-## Writing Papers for \*ACL
+## Tips for Writing \*ACL Papers
 
 ##### Nikos Aletras
-##### 30-6-2020
+##### v. 24-11-2020
 ----
+
 
 ### Main NLP Venues
 
@@ -19,8 +20,8 @@
     - AAAI, IJCAI, KDD
   - Social Media:
     - WWW, ICWSM
-  - Information Retrieval:
-   - SIGIR, CIKM, WSDM, ECIR
+  - Information Retrieval++:
+    - SIGIR, CIKM, WSDM, ECIR
 
 Acceptance rates: ~20-25%  (See https://aclweb.org/aclwiki/Conference_acceptance_rates)
 
@@ -40,7 +41,7 @@ Number of submissions in these conferences: ~1-3K
 
 - Papers are submitted into different tracks e.g. syntax, semantics, machine translation
 - Papers are reviewed by three reviewers (and usually a meta-reviewer)
-- Papers are rated from 1 to 5 (NAACL sometimes uses a 6-point scale). Typically if you get at least two 4s and a 3 you have good chances to get your paper in.
+- Papers are rated from 1 to 5. Typically if you get at least two 4s and a 3 or more you have good chances to get your paper in.
 - Area Chairs provide metareviews to Senior Area Chairs who made acceptance/rejection recommendations to the Programme Chairs.
 
 ### How can I get my paper published?
@@ -55,14 +56,14 @@ To have good chances to get your paper accepted, it should typically contain at 
 
 and…it has to be **very well-written**!
 
-### General Advice
+## General Advice
 
 - Start writing early
-- Keep the sentences (paragraphs) short and concise
+- Keep the sentences (paragraphs) short (brief) and concise
 - Use simple language
 - Tell a nice story
-- Highlight the important results
-- CONVINCE the reviewers that your paper should be accepted!
+- Highlight the important results 
+- CONVINCE the reviewers that your paper presents a useful contribution for the NLP community!
 
 
 ## Structuring your Paper
@@ -83,11 +84,11 @@ If you write a short paper, you can:
   - Merge Introduction and related work
   - Merge Experimental Setup and Results into "Experiments and Results"
 
-To save space, you can move hyperparameter choices etc. into an Appendix
+To save space, you can move hyperparameter tuning info into an Appendix
 
 
 ### Abstract
-Short version of the introduction. It should start with a sentence setting the context and why the task is important. Then, it should present the limitations of previous work (if applicable) followed with what new you are proposing. Close with the main contributions of the paper.
+Short version of the introduction. It should start with a sentence setting the context and why the task is important. Then, it should present the limitations of previous work (if applicable) followed with what new you are proposing. Close with the main contributions of the paper. 
 
 Example 1:
 
@@ -100,7 +101,7 @@ Example 2:
 
 ### Introduction
 
-The introduction should clearly set the scene, convincing the reader/reviewer that this paper is worth accepting/reading. Its length should not be longer than 1 1/4 for long papers and 1 page for short papers.
+The introduction should clearly set the scene, convincing the reader/reviewer that this paper is worth accepting/reading. Typically, its length should not be longer than 1 1/2 for long papers and 1 page for short papers.
 
 The **first one or two paragraphs** of the introduction should provide the context and motivation followed by why the task is important or useful for NLP research (e.g. downstream applications).
 
@@ -108,7 +109,7 @@ The **first one or two paragraphs** of the introduction should provide the conte
 
 *  -->
 
-Next, the **second (or third) paragraph** should describe what has been done before (previous work) and its limitations (if any of course). Note that this paragraph might be longer if the paper is short and does not contain a "Related Work" section. Tip: the limitations of the previous work are often the methodological contributions of your paper rephrased!
+The **second (or third) paragraph** should describe what has been done before (previous work) and its limitations (if any). Note that this paragraph might be longer if the paper is short and does not contain a "Related Work" section. Tip: the limitations of the previous work are often the methodological contributions of your paper rephrased!
 
 The **fourth (or fifth) paragraph** should describe shortly and concisely what you do in your paper.
 
@@ -118,7 +119,7 @@ Example:
 
 In the **last paragraph**, you should describe (again) shortly and concisely the main contributions of your paper. In a long paper, you can use a bullet-point list. For short papers you can use an in-line list (e.g. (a) contribution 1; (b) contribution 2...).
 
-Note: Do not use "The paper is structured as follows…" to close the introduction!
+Note: Do not use "The paper is structured as follows…" to close the introduction! This is usually helpful for longer documents such as a PhD thesis.  
 
 ### Related Work
 
@@ -126,7 +127,7 @@ In this section you need to list and discuss previous/related work by highlighti
 
 ### Methodology (or Models)
 
-In this section, you need to describe your methodology. Typically, this section usually describes predictive models (in an empirical study of a task) or a new model that you present. Note that you should group your methods into relevant subsections or use a subsection for each method. You should also make sure that your notation is clear and the names of the methods are consistent across sections (typically you will use the names of the methods to describe the results). Never mention hyperparameter choices here.
+In this section, you should describe your methodology. Typically, this section usually describes predictive models (in an empirical study of a task) or a new model that you present. Note that you should group your methods into relevant subsections or use a subsection for each method. You should also make sure that your notation is clear and the names of the methods are consistent across sections (typically you will use the names of the methods to describe the results). Make sure that the order of the methods is the same as in your main table of results (see Results). Avoid describing hyperparameter choices here (only rarely in short papers if this is not a lot due to space constraints).
 
 ### Experimental Setup
 
@@ -134,20 +135,20 @@ This section should describe hyperparams, baselines, datasets and evaluation met
 
 ### Results
 
-This section should critically discuss the main results/findings. Typically when you should test for statistical significance or report results over multiple runs with standard deviation. You should always try to justify observations and if possible link to any assumptions you make or related work. Note that you should provide comparative results and do not forget to include numbers (and relative differences) in the discussion. Try to group the discussion of the results similar to the groupings in the results table.
+This section should critically discuss the main results/findings. Typically when you should test for statistical significance or report results over multiple runs with standard deviation. You should always try to justify observations and if possible link to any assumptions you make or related work. Note that you should provide comparative results and do not forget to include numbers (and relative differences) in the discussion. Try to group the discussion of the results similar to groups you have in your results table (if any).
 
 Example:
 
 *Overall, we observe that transormer-based methods outperform recurrent architectures. The best transformer method X achieves 75 F1 compared to 70 of the recurrent method Y. This happens because...*
 
-Finally, Error analysis subsection is very important and should highlight and provide explanations for cases where the best performing method fails to classify correctly.
+Finally, an "Error Analysis" subsection is very important and should highlight and provide explanations for cases where the best performing method fails to classify correctly.
 
 ### Conclusion
 
-The conclusions section should be short and reiterate through the main contributions. Tip: rephrase the last paragaph of the intro (or the abstract) and add a couple of sentences on future work (no need to mention/reveal any groundbreaking ideas here!)
+The conclusions section should be short and reiterate through the main contributions. Tip: rephrase the last paragaph of the intro (or the abstract) and add a couple of sentences on future work.
 
 
-### Data
+### Data (if applicable)
 If your paper presents a new dataset, then you should include a dedicated section after Related Work. In this section, you need to clearly and in detail data collection/curation/annotation methods. You should include detailed dataset statistics (with relevant tables or plots). If the dataset includes human annotation, you need to report inter-annotator aggreement.
 
 
@@ -162,10 +163,11 @@ Make sure that the format of the references is correct and capitalisation is OK.
 - Tables/Figures should be well placed/formatted
 - Captions should be short, concise and self-contained if possible
 - Figures/graphs should be visible
-- Latex source should be correct
+- Latex source should be correct. Use oficcial templates. Never compile an appendix with the main paper.
 - Bibliography format should be clean
 - In general everything in the paper should be clearly explained. If something looks difficult to comprehend then you might need to revise it.
-- Read the paper again and again
+- Polish, proofread, repeat. Read the paper again and again..
+- Ask your colleagues for feedback.
 
 ## Improving your Writing
 
@@ -177,3 +179,4 @@ Make sure that the format of the references is correct and capitalisation is OK.
 - Follow academic writing tips, e.g. http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
 - Attend and present at the reading group!
 - Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups)
+
