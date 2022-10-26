@@ -1,7 +1,7 @@
-## Tips for Writing \*ACL Papers (Nov 2020)
+## Tips for Writing \*ACL Papers (Oct 2022)
 
 ##### Nikos Aletras
-##### v1.0 24-11-2020
+##### v1.1 26-10-2022
 ----
 
 
@@ -33,7 +33,7 @@ Usually you get +1 page of content upon acceptance.
 
 Note that recently acceptance rates for short papers is lower than long papers!
 
-Number of submissions in these conferences: ~1-3K
+Number of submissions in these conferences: ~1-3.5K
 
 
 
@@ -41,7 +41,7 @@ Number of submissions in these conferences: ~1-3K
 
 - Papers are submitted into different tracks e.g. syntax, semantics, machine translation
 - Papers are reviewed by three reviewers (and usually a meta-reviewer)
-- Papers are rated from 1 to 5. Typically if you get at least two 4s and a 3 or more you have good chances to get your paper in.
+- Papers are rated from 1 to 5. Typically, if you get at least two 4s and a 3 or more you have good chances to get your paper in.
 - Area Chairs provide metareviews to Senior Area Chairs who made acceptance/rejection recommendations to the Programme Chairs.
 
 ### How can I get my paper published?
@@ -148,7 +148,7 @@ The conclusions section should be short and reiterate through the main contribut
 
 
 ### Data (if applicable)
-If your paper presents a new dataset, then you should include a dedicated section after Related Work. In this section, you need to clearly and in detail data collection/curation/annotation methods. You should include detailed dataset statistics (with relevant tables or plots). If the dataset includes human annotation, you need to report inter-annotator aggreement.
+If your paper presents a new dataset, then you should include a dedicated section after Related Work. In this section, you need to describe clearly and in detail the data collection/curation/annotation methods. You should include detailed dataset statistics (with relevant tables or plots). If the dataset includes human annotation, you need to report inter-annotator aggreement, instructions to annotators etc..
 
 
 ### References
