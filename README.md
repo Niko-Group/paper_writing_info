@@ -162,12 +162,12 @@ Make sure that the format of the references is correct and capitalisation is OK.
 - Tables/Figures should be well placed/formatted
 - Captions should be short, concise and self-contained if possible
 - Figures/graphs should be visible
-- Latex source should be correct. Use oficcial templates. Never compile an appendix with the main paper.
+- Latex source should be correct. Use oficcial templates. Never compile an appendix with the main paper (unless this is allowed).
 - Bibliography format should be clean
 - In general everything in the paper should be clearly explained. If something looks difficult to comprehend then you might need to revise it.
 - Polish, proofread, repeat. Read the paper again and again..
 - Ask your colleagues for feedback.
-- Make sure you have checked any extra requirements (e.g. ethics statement)
+- Make sure you have checked any extra requirements (e.g. ethics statement, limitations). Always read carefully the instructions in the official call for papers.
 
 ## Improving your Writing
 
@@ -178,5 +178,5 @@ Make sure that the format of the references is correct and capitalisation is OK.
 - Ask for feedback
 - Follow academic writing tips, e.g. http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
 - Attend and present at the reading group!
-- Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups)
+- Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups), watch films/series using English subtitles.
 
