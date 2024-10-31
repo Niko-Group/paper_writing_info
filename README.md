@@ -169,8 +169,8 @@ Make sure that the format of the references is correct and capitalisation is OK.
 ## Improving your Writing
 
 - Practice...a lot!
-- Have a reading routine (https://aclweb.org/anthology/)
-- Learn from the best: read papers, paper introductions from researchers that publish frequently in \*ACL
+- Have a reading routine by blocking time to read every week. Typically, try to read a good number of papers (https://aclweb.org/anthology/ and arxiv)
+- Learn from the best: read papers, paper introductions from researchers that publish frequently in \*ACL. Try to be critical with the structure, paper style and presentation of papers you read. Previous work can help structure your own paper too!
 - Write your own papers
 - Ask for feedback
 - Follow academic writing tips, e.g. http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
