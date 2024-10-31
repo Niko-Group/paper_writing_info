@@ -1,7 +1,7 @@
-## Tips for Writing \*ACL Papers (Oct 2022)
+## Tips for Writing \*ACL Papers
 
 ##### Nikos Aletras
-##### v1.1 26-10-2022
+##### v1.2 31-10-2024
 ----
 
 
@@ -12,48 +12,45 @@
 - \*ACL Journals:
   - TACL, Computational Linguistics
 - Other good NLP conferences:
-  - COLING
+  - COLM
 - Closely related top-tier venues:
   - ML:
     - NeurIPS, ICML, ICLR
   - General AI:
     - AAAI, IJCAI, KDD
-  - Social Media:
-    - WWW, ICWSM
-  - Information Retrieval++:
-    - SIGIR, CIKM, WSDM, ECIR
+  - Social Media and Computational Social Science:
+    - ICWSM
+  - Web and Information Retrieval++:
+    - SIGIR, WWW, CIKM, WSDM, ECIR
 
-Acceptance rates: ~20-25%  (See https://aclweb.org/aclwiki/Conference_acceptance_rates)
+Acceptance rates: ~20-25% for the main proceedings. At \*ACL venues an extra ~15-20% of the rejected papers is accepted to Findings (technically sound papers, perhaps not very novel with borderline scores). See https://aclweb.org/aclwiki/Conference_acceptance_rates. 
 
 Two paper types for \*ACL conferences:
   - Long: 8 pages content + unlimited pages for refs
-  - Short: 4 pages content + unlimited pages for refs
+  - Short: 4 pages content + unlimited pages for refs (Note that recently acceptance rates for short papers is lower than long papers!)
 
 Usually you get +1 page of content upon acceptance.
 
-Note that recently acceptance rates for short papers is lower than long papers!
-
-Number of submissions in these conferences: ~1-3.5K
-
+Number of submissions in these conferences: ~1-5K (or more).
 
 
 ### Paper Submission and Review Process
 
 - Papers are submitted into different tracks e.g. syntax, semantics, machine translation
-- Papers are reviewed by three reviewers (and usually a meta-reviewer)
-- Papers are rated from 1 to 5. Typically, if you get at least two 4s and a 3 or more you have good chances to get your paper in.
-- Area Chairs provide metareviews to Senior Area Chairs who made acceptance/rejection recommendations to the Programme Chairs.
+- Papers are reviewed by three reviewers (sometimes you might receive four reviews if one of the reviewers is late in submitting their review) and a meta-reviewer
+- Papers are rated from 1 to 5 (Overall Assessment and Soundness). Typically, if you get at least two 4s and a 3 or more with a metareview of 4 or more, you have good chances to get your paper in. 
+- Area Chairs provide metareviews to Senior Area Chairs who make accept/reject (or more precisely for \*ACL conferences: "strong accept to main", "main or findings", "findings or reject", "strong reject") recommendations to the Programme Chairs. Program Chairs make the final acceptance decisions
 
 ### How can I get my paper published?
 
-To have good chances to get your paper accepted, it should typically contain at least one of the following:
+To have good chances to get your paper accepted, it should typically make at least one of the following contributions:
   - a novel task
   - a novel dataset
   - a novel methodology (e.g. new ML model, substantial extensions to existing models etc.)
   - a novel evaluation method (e.g. a better way for evaluating models for an existing task)
-  - state-of-the art results
+  - state-of-the art results (compared to previous work)
  
- thorough experiments and analysis and…it has to be **written very well**!
+ You need solid and thorough experiments, in-depth analysis, and…it has to be **written very well**!
 
 ## General Advice
 
@@ -61,8 +58,8 @@ To have good chances to get your paper accepted, it should typically contain at 
 - Keep the sentences (paragraphs) short (brief) and concise
 - Use simple language
 - Tell a nice story
-- Highlight the important results 
-- CONVINCE the reviewers that your paper presents a useful contribution for the NLP community!
+- Highlight the important results, offer an in-depth and convincing analysis
+- CONVINCE the reviewers that your paper presents a useful/important contribution for the NLP community!
 
 
 ## Structuring your Paper
@@ -173,10 +170,10 @@ Make sure that the format of the references is correct and capitalisation is OK.
 
 - Practice...a lot!
 - Have a reading routine (https://aclweb.org/anthology/)
-- Learn from the best: read papers, introductions from researchers that publish frequently in \*ACL
+- Learn from the best: read papers, paper introductions from researchers that publish frequently in \*ACL
 - Write your own papers
 - Ask for feedback
 - Follow academic writing tips, e.g. http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
 - Attend and present at the reading group!
-- Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups), watch films/series using English subtitles.
+- Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups, now you can use LLMs), watch films/series using English subtitles.
 
