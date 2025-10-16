@@ -1,4 +1,4 @@
-## Tips for Writing \*ACL Papers
+## How to Write \*ACL Papers
 
 ##### Nikos Aletras
 ##### v1.3 16-10-2025
