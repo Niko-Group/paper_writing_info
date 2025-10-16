@@ -97,13 +97,10 @@ Example 2:
 
 ### Introduction
 
-The introduction should clearly set the scene, convincing the reader/reviewer that this paper is worth accepting/reading. Typically, its length should not be longer than 1 1/2 for long papers and 1 page for short papers.
+The introduction should clearly set the scene, convincing the reader/reviewer that this paper is worth accepting/reading. Typically, its length should not be longer than 1 1/2 for long papers and 1 page for short papers. Include a nice figure that summarises your method at the top right corner of the first page.
 
 The **first one or two paragraphs** of the introduction should provide the context and motivation followed by why the task is important or useful for NLP research (e.g. downstream applications).
 
-<!-- Example:
-
-*  -->
 
 The **second (or third) paragraph** should describe what has been done before (previous work) and its limitations (if any). Note that this paragraph might be longer if the paper is short and does not contain a "Related Work" section. Tip: the limitations of the previous work are often the methodological contributions of your paper rephrased!
 
