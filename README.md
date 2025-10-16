@@ -1,7 +1,7 @@
 ## Tips for Writing \*ACL Papers
 
 ##### Nikos Aletras
-##### v1.2 31-10-2024
+##### v1.3 16-10-2025
 ----
 
 
@@ -11,35 +11,35 @@
   - ACL, EMNLP, NAACL, EACL, AACL
 - \*ACL Journals:
   - TACL, Computational Linguistics
-- Other good NLP conferences:
+- Other top NLP conferences:
   - COLM
 - Closely related top-tier venues:
   - ML:
     - NeurIPS, ICML, ICLR
   - General AI:
-    - AAAI, IJCAI, KDD
+    - AAAI, KDD
   - Social Media and Computational Social Science:
     - ICWSM
   - Web and Information Retrieval++:
-    - SIGIR, WWW, CIKM, WSDM, ECIR
+    - SIGIR, WWW, CIKM, WSDM
 
-Acceptance rates: ~20-25% for the main proceedings. At \*ACL venues an extra ~15-20% of the rejected papers is accepted to Findings (technically sound papers, perhaps not very novel with borderline scores). See https://aclweb.org/aclwiki/Conference_acceptance_rates. 
+Acceptance rates: typically ~20-25% for the main proceedings. At \*ACL venues an extra ~15-20% of the rejected papers is accepted to Findings (technically sound papers, perhaps not very novel with borderline scores). See https://aclweb.org/aclwiki/Conference_acceptance_rates. 
 
 Two paper types for \*ACL conferences:
   - Long: 8 pages content + unlimited pages for refs
-  - Short: 4 pages content + unlimited pages for refs (Note that recently acceptance rates for short papers is lower than long papers!)
+  - Short: 4 pages content + unlimited pages for refs (Note that recently the acceptance rates for short papers is lower than long papers!)
 
 Usually you get +1 page of content upon acceptance.
 
-Number of submissions in these conferences: ~1-5K (or more).
+Number of submissions in *ACL conferences: ~1-7K (or more).
 
 
 ### Paper Submission and Review Process
 
-- Papers are submitted into different tracks e.g. syntax, semantics, machine translation
+- Papers are submitted into different tracks e.g. syntax, semantics, machine translation via ACL ARR.
 - Papers are reviewed by three reviewers (sometimes you might receive four reviews if one of the reviewers is late in submitting their review) and a meta-reviewer
-- Papers are rated from 1 to 5 (Overall Assessment and Soundness). Typically, if you get at least two 4s and a 3 or more with a metareview of 4 or more, you have good chances to get your paper in. 
-- Area Chairs provide metareviews to Senior Area Chairs who make accept/reject (or more precisely for \*ACL conferences: "strong accept to main", "main or findings", "findings or reject", "strong reject") recommendations to the Programme Chairs. Program Chairs make the final acceptance decisions
+- Papers are rated from 1 to 5 (Overall Assessment, Soundness and Excitement). Typically, if you get at least two 4s and a 3 for Overall Assessment, or more with a metareview of 4 or more, you have good chances to get your paper in. High Soundness increases your chances for Fidnings, while high Excitement could increase your chances for main.
+- The Area Chair provides a metareview to the conference Senior Area Chairs who make accept/reject (or more precisely for \*ACL conferences: "accept to main", "borderline main", "findings", "borderline findings", "reject") recommendations to the Programme Chairs (upon paper commitment to a particular conference). Program Chairs make the final acceptance decisions.
 
 ### How can I get my paper published?
 
@@ -59,7 +59,7 @@ To have good chances to get your paper accepted, it should typically make at lea
 - Use simple language
 - Tell a nice story
 - Highlight the important results, offer an in-depth and convincing analysis
-- CONVINCE the reviewers that your paper presents a useful/important contribution for the NLP community!
+- **Convince** the reviewers that your paper presents a useful/important contribution for the NLP community!
 
 
 ## Structuring your Paper
@@ -88,7 +88,7 @@ It should start with a sentence setting the context and why the task is importan
 
 Example 1:
 
-*X is an important task in natural language processing with applications in Y and Z. Previous work on X has focused on using A and B however these approaches luck of D and F. In this paper, we present a new method C that consists of two steps: (a) M that includes...; and (b) N that does...Evaluating C on a set of standard datasets, we show that it outperforms previous methods by a large margin. We also show that C is robust in K by experimenting with D and F.*
+*X is an important task in natural language processing with applications in Y and Z. Previous work on X has focused on using A and B however these approaches lack of D and F. In this paper, we present a new method C that consists of two steps: (a) M that includes...; and (b) N that does...Evaluating C on a set of standard datasets, we show that it outperforms previous methods by a large margin. We also show that C is robust in K by experimenting with D and F.*
 
 Example 2:
 
@@ -150,29 +150,36 @@ If your paper presents a new dataset, then you should include a dedicated sectio
 
 ### References
 
-Make sure that the format of the references is correct and capitalisation is OK. Always use bibtex.
+- Make sure that the format of the references is correct and capitalisation is OK. Always use bibtex.
+- Cite the published version of the paper instead of the arxiv version when possible.
 
 
 ## Improving Paper Clarity
 
-- Equations should be well defined and explained in the text
-- Tables/Figures should be well placed/formatted
-- Captions should be short, concise and self-contained if possible
-- Figures/graphs should be visible
+- Equations should be well defined and explained in the text.
+- Tables/Figures should be well placed/formatted.
+- Captions should be short, concise and self-contained if possible.
+- Figures/graphs/tables and any text within should be clear and visible.
+- Make sure you use colourblind-friendly colour palettes in figures, plots, tables etc.. 
 - Latex source should be correct. Use oficcial templates. Never compile an appendix with the main paper (unless this is allowed).
-- Bibliography format should be clean
+- Bibliography format should be clean and well formatted.
+- Place footnotes after punctuation marks (. or ,), e.g, ...end of sentence.\footnote{...}
 - In general everything in the paper should be clearly explained. If something looks difficult to comprehend then you might need to revise it.
-- Polish, proofread, repeat. Read the paper again and again..
-- Ask your colleagues for feedback.
+- Polish, proofread, repeat. Read the paper again and again.
+- Ask your colleagues for feedback, ask GenAI for feedback.
 - Make sure you have checked any extra requirements (e.g. ethics statement, limitations). Always read carefully the instructions in the official call for papers.
+- Use GenAI to fix typos, awkward syntax, and grammar. You can use it on the sentence, paragraph or (sub)section level to get suggestions on different levels of granularity.
+- If you use GenAI for writing assistance:
+    - Beware LLMs hallucinate. Always double check and post-edit the text.
+    - Make sure you clean up "GenAIisms" such as delve, meticulous, significant (without providing statistical significance tests), "quoted text,"-> "quoted text" etc..
 
 ## Improving your Writing
 
 - Practice...a lot!
 - Have a reading routine by blocking time to read every week. Typically, try to read a good number of papers (https://aclweb.org/anthology/ and arxiv)
 - Learn from the best: read papers, paper introductions from researchers that publish frequently in \*ACL. Try to be critical with the structure, paper style and presentation of papers you read. Previous work can help structure your own paper too!
-- Write your own papers
-- Ask for feedback
+- Write your own papers.
+- Ask for feedback.
 - Follow academic writing tips, e.g. http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
 - Attend and present at the reading group!
 - Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups, now you can use LLMs), watch films/series using English subtitles.
