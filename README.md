@@ -158,7 +158,7 @@ If your paper presents a new dataset, then you should include a dedicated sectio
 - Captions should be short, concise and self-contained if possible.
 - Figures/graphs/tables and any text within should be clear and visible.
 - Make sure you use colourblind-friendly colour palettes in figures, plots, tables etc.. 
-- Latex source should be correct. Use oficcial templates. Never compile an appendix with the main paper (unless this is allowed).
+- Latex source should be correct. Use oficcial templates. Check if the appendix can be compiled with the main paper (this is allowed in *ACL papers).
 - Bibliography format should be clean and well formatted.
 - Place footnotes after punctuation marks (. or ,), e.g, ...end of sentence.\footnote{...}
 - In general everything in the paper should be clearly explained. If something looks difficult to comprehend then you might need to revise it.
