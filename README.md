@@ -171,7 +171,7 @@ If your paper presents a new dataset, then you should include a dedicated sectio
 - Use GenAI to fix typos, awkward syntax, and grammar. You can use it on the sentence, paragraph or (sub)section level to get suggestions on different levels of granularity.
 - If you use GenAI for writing assistance:
     - Beware LLMs hallucinate. Always double check and post-edit the text.
-    - Make sure you clean up "GenAIisms" such as delve, meticulous, significant (without providing statistical significance tests), "quoted text,"-> "quoted text" etc..
+    - Make sure you clean up "GenAIisms" such as delve, meticulous, significant (without providing statistical significance tests), commas should be placed after quoted text ("quoted text,"-> "quoted text",) etc..
 
 ## Improving your Writing
 
