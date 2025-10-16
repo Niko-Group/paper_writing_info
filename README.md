@@ -180,7 +180,9 @@ If your paper presents a new dataset, then you should include a dedicated sectio
 - Learn from the best: read papers, paper introductions from researchers that publish frequently in \*ACL. Try to be critical with the structure, paper style and presentation of papers you read. Previous work can help structure your own paper too!
 - Write your own papers.
 - Ask for feedback.
-- Follow academic writing tips, e.g. http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
+- Follow academic writing cookbooks:
+    - http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf
+    - https://docs.google.com/document/d/16R1E2ExKUCP5SlXWHr-KzbVDx9DBUclra-EbU8IB-iE
 - Attend and present at the reading group!
 - Non-native EN speakers have to try harder than native speakers! Check for grammar/syntax structure (I personally do web look ups, now you can use LLMs), watch films/series using English subtitles.
 
